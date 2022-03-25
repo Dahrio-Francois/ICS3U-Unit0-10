@@ -9,9 +9,9 @@ def main():
     # this program adds the two decimal numbers
 
     float = 0.1 + 0.2
-    format_float = "{:.1f}".format(float)
+    addition = round(float, 1)
     print("0.1 + 0.2 = ")
-    print(format_float)
+    print(addition)
 
 
 if __name__ == "__main__":
